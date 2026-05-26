@@ -1,0 +1,12 @@
+{
+  "site_name": "Solar Inteligente DIY",
+  "site_tagline": "Sua jornada para a independência energética total.",
+  "base_url": "https://thaynasp.github.io/solar-diy/",
+  "affiliate_links": {
+    "inverter": "https://www.amazon.com.br/s?k=inversor+hibrido+solar&tag=anyahtsp02-20",
+    "battery": "https://www.amazon.com.br/s?k=bateria+lifepo4+48v&tag=anyahtsp02-20",
+    "panels": "https://www.amazon.com.br/s?k=painel+solar+550w&tag=anyahtsp02-20",
+    "kit": "https://www.amazon.com.br/s?k=kit+solar+off+grid&tag=anyahtsp02-20"
+  },
+  "contact_email": "contato@solarinteligentediy.com"
+}
