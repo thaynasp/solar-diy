@@ -5,26 +5,31 @@
   "amazon_id": "anyahtsp02-20",
   "shopee_id": "18322620100",
   "mercadolivre_url": "https://www.mercadolivre.com.br/social/sith23754",
+  "magalu_id": "comthata10",
   "affiliate_links": {
     "inverter": {
       "amazon": "https://www.amazon.com.br/s?k=inversor+hibrido+solar&tag=anyahtsp02-20",
       "shopee": "https://shopee.com.br/search?keyword=inversor+hibrido+solar",
-      "mercadolivre": "https://lista.mercadolivre.com.br/inversor-hibrido-solar"
+      "mercadolivre": "https://lista.mercadolivre.com.br/inversor-hibrido-solar",
+      "magalu": "https://www.magazineluiza.com.br/busca/inversor+solar/?from=comthata10"
     },
     "battery": {
       "amazon": "https://www.amazon.com.br/s?k=bateria+lifepo4+48v&tag=anyahtsp02-20",
       "shopee": "https://shopee.com.br/search?keyword=bateria+lifepo4",
-      "mercadolivre": "https://lista.mercadolivre.com.br/bateria-lifepo4-48v"
+      "mercadolivre": "https://lista.mercadolivre.com.br/bateria-lifepo4-48v",
+      "magalu": "https://www.magazineluiza.com.br/busca/bateria+lifepo4/?from=comthata10"
     },
     "panels": {
       "amazon": "https://www.amazon.com.br/s?k=painel+solar+550w&tag=anyahtsp02-20",
       "shopee": "https://shopee.com.br/search?keyword=painel+solar",
-      "mercadolivre": "https://lista.mercadolivre.com.br/painel-solar-550w"
+      "mercadolivre": "https://lista.mercadolivre.com.br/painel-solar-550w",
+      "magalu": "https://www.magazineluiza.com.br/busca/painel+solar/?from=comthata10"
     },
     "kit": {
       "amazon": "https://www.amazon.com.br/s?k=kit+solar+off+grid&tag=anyahtsp02-20",
       "shopee": "https://shopee.com.br/search?keyword=kit+solar",
-      "mercadolivre": "https://lista.mercadolivre.com.br/kit-solar-off-grid"
+      "mercadolivre": "https://lista.mercadolivre.com.br/kit-solar-off-grid",
+      "magalu": "https://www.magazineluiza.com.br/busca/kit+solar/?from=comthata10"
     }
   },
   "contact_email": "contato@solarinteligentediy.com"
