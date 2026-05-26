@@ -53,15 +53,19 @@ def generate_page(md_path):
     page_html = page_html.replace('{{description}}', f"Saiba tudo sobre {title} no Portal Solar Inteligente DIY.")
     
     # Lógica simples para link de afiliado
-    affiliate_link = config['affiliate_links']['kit'] # Default
+    product_key = 'kit' # Default
     if 'inversor' in md_content.lower():
-        affiliate_link = config['affiliate_links']['inverter']
+        product_key = 'inverter'
     elif 'bateria' in md_content.lower():
-        affiliate_link = config['affiliate_links']['battery']
+        product_key = 'battery'
     elif 'painel' in md_content.lower():
-        affiliate_link = config['affiliate_links']['panels']
+        product_key = 'panels'
         
-    page_html = page_html.replace('{{affiliate_link}}', affiliate_link)
+    amazon_link = config['affiliate_links'][product_key]['amazon']
+    shopee_link = config['affiliate_links'][product_key]['shopee']
+    
+    page_html = page_html.replace('{{amazon_link}}', amazon_link)
+    page_html = page_html.replace('{{shopee_link}}', shopee_link)
     
     # Salvar
     filename = os.path.basename(md_path).replace('.md', '.html')
